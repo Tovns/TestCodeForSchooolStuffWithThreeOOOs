@@ -30,7 +30,7 @@ void setup() {
 
   LEDS.addLeds<LED_TYPE, LED_DT, COLOR_ORDER>(leds, NUM_LEDS);      
  
-  FastLED.setBrightness(15);         
+  FastLED.setBrightness(25);         
 
   Serial.begin(9600);
   uint8_t error = paj7620Init();
