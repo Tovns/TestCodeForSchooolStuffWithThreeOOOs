@@ -57,7 +57,6 @@ void led_on_off(){
     }
     else {
       Turning_on = false;
-      Serial.println("sdlfkj");
     }
     FastLED.show();
   }
@@ -68,7 +67,6 @@ void led_on_off(){
     }
     else {
       Turning_off = false;
-      Serial.println("poo poo bum bumn");
     }
     FastLED.show();
   }
